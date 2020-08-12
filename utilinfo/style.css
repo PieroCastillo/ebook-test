@@ -1,0 +1,63 @@
+h1{
+  text-align: center;
+  font-size: 40px;
+  font-family: Verdana;
+  color: #080;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+}
+.welcome{
+  text-align: center;
+  /*Dimenciones*/ 
+  margin-top: 2%;
+  margin-left: 11%;
+  margin-right: 11%;
+  width: 620.017px;
+  height: 95px;
+
+}
+#info{
+  text-align: center;
+  margin-top: 2%;
+
+}
+
+#categorias{
+  text-align: center;
+  margin-left: 11%;
+  margin-right: 11%;
+  width: 620.017px;
+  padding: 20px;
+  margin-top: 2%;
+  
+	border-color: #080;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-right-width: 1px;
+  border-right-style: solid;
+
+}
+#empezar{
+	display: inline-block;
+	color:#888;
+	text-decoration: none;
+	padding: 20px 20px;
+	line-height: normal;
+	font-size: 13px;
+	background: transparent;
+	font-weight: bold;
+	transition: 500ms ease;
+	border: 0;
+}
+#empezar:hover{
+	background: #f56f3a;
+	border-radius: 50px;
+	color: #080;
+}
+
+

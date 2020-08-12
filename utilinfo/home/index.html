@@ -1,0 +1,91 @@
+<!DOCTYPE html> 
+<html lang="es">
+	<head>
+		<title> Descargas </title>
+		<!-- Metas -->
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Lanaguage" content="es">
+		<meta name="title" content="Descargas">
+		<meta name="description" content="Descarga tus libros sobre informatica 
+		facilmente ordenados por categorias">
+		<meta name="revisit" content="15 days">
+		<meta name="robots" content="all">
+		<!--links -->
+		<link rel="shortcout" href="iconos/icon.ico"><!--Icono despues poner la url-->
+		<link rel="stylesheet" href="body.css">
+		<link rel="stylesheet" href="style.css">
+		<script>function blockError(){return true;}
+		window.onerror = blockError;</script>
+		<script>
+			//Script del menu
+			$(document).ready(function(){
+	$(window).scroll(function(){
+		if( $(this).scrollTop() > 0 ){$('header').addClass('header2');
+		}else{$('header').removeClass('header2');
+		}});
+		});
+		</script>
+	</head>
+	<body>
+	<nav>
+ 		<a id="home" href="../index.html"><img width="30" height="30" src="../icons/home.svg"></a>
+ 		<a id="help" href="../about.html"><img width="30" height="30" src="../icons/help.svg"></a>
+ 		<a id="contact" href="../contact.html"><img width="30" height="30" src="../icons/contact.svg"></a>
+		<a id="down" href="#"><img width="30" height="30" src="../icons/down.svg"></a>
+ 	</nav>
+
+		<section>
+			<div id="cuerpo">
+				<h1>Encuentra tus libros</h1>
+
+				<p id="welcome">
+					Encuentra los libros que desees descargar desde aqui, te presentamos algunas 
+					de las categorias disponibles ya que iremos añadiendo más. La mayoria de libros estan
+					en español pero tambien incluimos libros en inglés para descargar. Tenemos formato mayormente en PDF ya que es uno de los mas comunes y otros como ebook también.
+					Aumenta tu conocimiento de la informatica y la programación web, movil, etc. Con Utilinfo, tienes los libros gratis y solo debes descargarlos y empezar a aprender con ellos.
+				</p>
+				<p class="alert"> Todos los libros aqui son gratis pero cada uno de ellos tiene derechos de autor y estan protegidos por la ley.</p>
+
+				<hr class="hrs">
+					<img class="images" src="libr.jpg"> <!-- libro o un celebro -->
+
+				<h2 style="color: #080;">Libros:</h2>
+				<div id="book">
+						<p class="c"> Informatica</p>
+							<p> Aprende informatica básica, algorismos, pseudocodigo y tambien 
+								la adquitectura de la computadora.<br>
+							
+								<center><a class="go" href="#">Ir a la página </a></center>
+							
+				<hr class="hrs">
+						<p class="c"> Programación </p>
+						<p> Aprende los más populares lenguajes de programación, tales como C/C++, Java, Python, PHP, Javascript y muchos más. Tambiñen hay para diseño web que incluye a HTML y CSS con Javascript. Pásate por aqui!!</p><br>
+						<center><a class="go" href="categorias/programacion/index.html">Ir a la página </a></center>
+				<hr class="hrs">
+						<p class="c"> Linux </p>
+						<p> Aprende sobre los sistemas GNU/LINUX y UNIX, asi como bash y todo el inmenso mundo de linux, veras que no sera tan difícil.</p><br>
+						<center><a class="go" href="#">Ir a la página </a></center>
+				<hr class="hrs">
+						<p class="c"> Windows </p>
+						<p> Toda lo que deberias saber de Windows, bach, usar el registro y la CMD.</p><br>
+						<center><a class="go" href="#">Ir a la página </a></center>
+				<hr class="hrs">
+				</div>		
+			</div>
+		</section>
+	<footer>
+			<center><b> Utilinfo</b></center>
+			<p>Usamos cookies para mejorar tu experiencia en la web.<br> Ayudanos enviandonos 
+			libros para ponerlos a dispocición del público </p> 
+	
+			<a id="largeb" href="../contact.html">Obten informacion acerca de como puedes ayudarnos</a>
+			 <a class="a" href="../about.html">Sobre nosotros</a>
+			 <a class="a" href="../index.html"> Inicio </a>
+			<a class="a" href="../contact.html">Contactenos </a>
+			<center><small><b>Utilinfo &copy; Todos los derechos reservados</b></small></center>
+							<small><b>2020</b></small>
+		</footer> 
+	</body>
+</html>
+			
+			

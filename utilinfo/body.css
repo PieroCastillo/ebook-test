@@ -1,0 +1,108 @@
+*{margin: 0; padding:0;} 
+body{
+  font-family: Calibri,Verdana;
+  color: #555;
+  text-align: left;
+  background: #fff;
+}
+
+/*Menu*/
+nav{
+	background: #080;
+	display: inline-block;
+	width: 97.850%;
+	height: 30px;
+	padding: 10px;
+}
+nav #home{
+	background: transparent;
+	border:0;
+	float: left;
+	margin-right: 5px;
+}
+nav #home:hover{
+	background: #070;
+	transition: 500ms;
+}
+nav #down{
+	background: transparent;
+	border:0;
+	float: left;
+}
+nav #down:hover{
+	background: #070;
+	transition: 500ms;
+}
+nav #help{
+	background:transparent;
+	border: 0;
+	margin-left: 5px;
+	float: right;
+}
+nav #help:hover{
+	background: #070;
+	transition: 500ms;
+}
+nav #contact{
+	background: transparent;
+	border: 0;
+	float: right;
+}
+nav #contact:hover{
+	background: #070;
+	transition: 500ms;
+}
+/*Hasta aqui*/
+
+#cuerpo{
+  /* Dimenciones*/
+  margin-right: 8%px;
+  margin-left: 8%;
+  margin-top: 20px;
+  width: 85%;
+}
+.hrs{
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  color:  #080;
+}
+/*Footer*/
+footer{
+	background: #24303c;
+	color: #aaa;
+	padding: 20px;
+	text-align: center;
+}
+footer #largeb{
+	display: block;
+	color: #888;
+	text-decoration: none;
+	padding: 5px;
+	font-size: 10px;
+	background: #13202a;
+	font-weight: bold;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+footer .a{
+	display: inline-block;
+	color: #888;
+	margin: 5px;
+	text-decoration: none;
+	padding: 5px;
+	font-size: 10px;
+	background: #13202a;
+	font-weight: bold;
+}
+footer #largeb:hover{
+	background: #13204f;
+}
+footer .a:hover{
+	background: #13204f;
+}
+/*Hasta aqui*/
+
+
+
